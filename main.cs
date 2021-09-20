@@ -10,19 +10,19 @@ class Program {
     double commission = 200 + (.09 * amount);
     Console.WriteLine ("Sales commission for " + name + " is $" + commission);
 
-    if (commission <= 2999.99)
+    if (amount <= 2999.99)
     {
       Console.WriteLine ("Performance is poor.");
     }
-    else if (commission <= 4999.99)
+    else if (amount <= 4999.99)
     {
       Console.WriteLine ("Performance is average.");
     }
-    else if (commission <= 9999.99)
+    else if (amount <= 9999.99)
     {
       Console.WriteLine ("Performance is good.");
     }
-    else if (commission <= 14999.99)
+    else if (amount <= 14999.99)
     {
       Console.WriteLine ("Performance is excellent.");
     }
